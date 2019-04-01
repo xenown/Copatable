@@ -1,0 +1,14 @@
+{
+	"name": "Copatable",
+	"version": "0.1",
+	"description": "Easy way to cop tables from the internet.",
+	"manifest_version": 2,
+	"background": {
+		"persistent": false,
+		"scripts": ["popup.js"]
+	},
+	"browser_action": {
+		"default_title": "Copatable",
+		"default_popup": "popup.html"
+	}
+}
